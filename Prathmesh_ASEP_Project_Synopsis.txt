@@ -2,7 +2,7 @@ Project Synopsis :
 
 Designing an app or a website for simulating space mining using microorganisms, also kwown as biomining.
 
-Features of the App/Website
+Features of the App/Website :
 1) Interactive Biomining Process Visualization :
 -Users can simulate how microbes extract materials from lunar, Martian, or asteroid regolith.
 -Include sliders to adjust conditions like temperature, pH, radiation levels, or gravity.

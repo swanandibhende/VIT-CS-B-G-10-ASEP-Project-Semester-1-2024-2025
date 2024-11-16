@@ -2,31 +2,33 @@ Project Synopsis :
 
 Designing an app or a website for simulating space mining using microorganisms, also kwown as biomining.
 
-Features of the App/Website :
-1) Interactive Biomining Process Visualization :
--Users can simulate how microbes extract materials from lunar, Martian, or asteroid regolith.
--Include sliders to adjust conditions like temperature, pH, radiation levels, or gravity.
+*Features of the App/Website :
 
-2) Microbial Behavior Simulation :
--Display how selected microbes function under different space conditions.
--Show animations of microbes interacting with regolith particles and extracting metals or volatiles.
+    1) Interactive Biomining Process Visualization :
+    -Users can simulate how microbes extract materials from lunar, Martian, or asteroid regolith.
+    -Include sliders to adjust conditions like temperature, pH, radiation levels, or gravity.
 
-3) Choose a Scenario :
--Lunar Mining: Focus on extracting oxygen and metals.
--Martian Soil: Explore water extraction for fuel or agriculture.
--Asteroid Mining: Simulate extracting rare metals like platinum.
+    2) Microbial Behavior Simulation :
+    -Display how selected microbes function under different space conditions.
+    -Show animations of microbes interacting with regolith particles and extracting metals or volatiles.
 
-4) Educational Content :
--Explain the biomining process, the role of microbes, and the challenges of space resource utilization.
--Provide details about the materials being mined and their applications.
+    3) Choose a Scenario :
+    -Lunar Mining: Focus on extracting oxygen and metals.
+    -Martian Soil: Explore water extraction for fuel or agriculture.
+    -Asteroid Mining: Simulate extracting rare metals like platinum.
 
-5) Resource Efficiency Tracker :
--Show a dashboard calculating the efficiency of resource extraction and its sustainability compared to terrestrial mining.
+    4) Educational Content :
+    -Explain the biomining process, the role of microbes, and the challenges of space resource utilization.
+    -Provide details about the materials being mined and their applications.
 
-6) Design Your Microbe :
--Let users "customize" a microbe by selecting traits like radiation resistance or pH tolerance.
--Visualize the impact of their design choices on mining efficiency.
+    5) Resource Efficiency Tracker :
+    -Show a dashboard calculating the efficiency of resource extraction and its sustainability compared to terrestrial mining.
 
-7) Space Environment Simulator :
--Simulate harsh space conditions (e.g., vacuum, radiation, temperature extremes) and see how they affect mining output.
+    6) Design Your Microbe :
+    -Let users "customize" a microbe by selecting traits like radiation resistance or pH tolerance.
+    -Visualize the impact of their design choices on mining efficiency.
 
+    7)Space Environment Simulator :
+    -Simulate harsh space condtiions (e.g., vacuum, radiation, temperature extremes) and see how they affect mining output.
+
+*Technology used in the app/website : 

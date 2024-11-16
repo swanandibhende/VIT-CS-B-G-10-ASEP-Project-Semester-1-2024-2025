@@ -22,7 +22,7 @@ Designing an app or a website for simulating space mining using microorganisms, 
     -Provide details about the materials being mined and their applications.
 
     5) Resource Efficiency Tracker :
-    -Show a dashboard calculating the efficiency of resource extraction and its sustainability compared to terrestrial mining.
+    -Show a dashboard, and some graphs calculating the efficiency of resource extraction and its sustainability compared to terrestrial mining.
 
     6) Design Your Microbe :
     -Let users "customize" a microbe by selecting traits like radiation resistance or pH tolerance.
@@ -32,3 +32,16 @@ Designing an app or a website for simulating space mining using microorganisms, 
     -Simulate harsh space condtiions (e.g., vacuum, radiation, temperature extremes) and see how they affect mining output.
 
 *Technology used in the app/website : 
+        1) Front end :
+        -HTML, CSS Js
+
+        2) Back end : 
+        -Python
+        -And incoporate scientific algorithms for simulation
+
+        3) Graphics :
+        -idk
+
+        4) Might use nasa published papers and other papers for data.
+
+        5) AI integration (mandatory at this point)

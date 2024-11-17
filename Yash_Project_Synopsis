@@ -4,8 +4,8 @@ Project Objective: To create as small as possible working 'Space Rover' with fun
 Functions of 'Space Rover' and their uses:
 
                 1) Sample Collection: By Use of Machine Learning "Rover" will be functioned 
-                   for 'Sample Collection' and used to collect Minerals, Resourses and Data
-                   of the 'Planet' or 'Asteroid'.
+                                      for 'Sample Collection' and used to collect Minerals, 
+                                      Resourses and Data of the 'Planet' or 'Asteroid'.
 
 
                 2) Obstacle Detection: By use of Sensors "Rover" will be functioned to avoid

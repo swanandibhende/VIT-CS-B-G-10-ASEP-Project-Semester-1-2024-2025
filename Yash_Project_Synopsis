@@ -1,1 +1,32 @@
-Project Objective: To create a working Space Rover with functions like Sample Collection, Obstacle Detection, Infrared Sensors, Mining Capabilities.
+Project Objective: To create as small as possible working 'Space Rover' with functions like Sample Collection, 
+                    Obstacle Detection, Lifeform Detection, Mining Capabilities, Decision Making.
+
+Functions of 'Space Rover' and their uses:
+
+                1) Sample Collection: By Use of Machine Learning "Rover" will be functioned 
+                   for 'Sample Collection' and used to collect Minerals, Resourses and Data
+                   of the 'Planet' or 'Asteroid'.
+
+
+                2) Obstacle Detection: By use of Sensors "Rover" will be functioned to avoid
+                                       collision with nearby obstacle.
+
+                3) Lifeform Detection: The use of Infrared Sensors is to detect the presence
+                                       of life and to gain information about temperature at 
+                                       specific location.
+
+                3) Minning Capabilities: By use of Machine Learning "rover" will be functioned  
+                                         to mine in 'Hard Rocks' and 'Planet Surface'. Type of
+                                         mining involved is Drilled Mining, Vein Mining, Strip
+                                         Mining.
+
+                4) Decision Making: By using 'Artificial Intelligence' Rover will make its own 
+                                    dicision by which above fuctionwill be enhanced. 
+
+Tecnology Used in the Project:
+                1) Artificial Intelligence [for enhancing functions]
+                2)Machine Learning [to train rover to do such activity]
+                3)Programming Language such as C,C++,MATLAB,etc.
+                4)Space Organistion's Reaseached Data.
+
+[I HAVE CONSIDERED THIS A LONG TERM PROJECT SO MORE FUCTIONS WILL BE ADDED LATER THEREFORE FOR FIRST YEAR WE WOULD DO ONLY SOME OF THE GIVEN FUCTIONS IN OUR "SPACE ROVER"]

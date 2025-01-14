@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background for a clean look */
+    color: #333333; /* Dark gray text for readability */
+  }
+  
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffc0cb; /* Soft pink for header */
+    padding: 10px 20px;
+  }
+  
+  #logo h1 {
+    margin: 0;
+    color: #f44965; /* Pink logo text for boldness */
+  }
+  
+  #nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  #nav ul li {
+    display: inline;
+  }
+  
+  #nav ul li a {
+    text-decoration: none;
+    color: #000000; /* Black for navigation links */
+    font-weight: bold;
+  }
+  
+  #nav ul li a:hover {
+    color: #ff69b4; /* Bright pink on hover */
+  }
+  
+  #hero-section {
+    background-color: #f8f8f8; /* Bright pink for hero section */
+    text-align: center;
+    padding: 50px 20px;
+    color: #ffffff; /* White text for contrast */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* for a bit of box shadow*/
+  }
+  
+  #hero-content h2 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  #hero-content p {
+    margin: 15px 0;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #000000; /* Black button */
+    color: #ffffff; /* White text on button */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff69b4; /* Pink on hover */
+    color: #ffffff;
+  }
+  
+  .section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f8f8f8; /* White for sections */
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  #products {
+    background-color: #f8f8f8; /* Light gray for product section */
+  }
+  
+  #product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Adjust for responsiveness */
+  }
+  
+  .product-item {
+    background-color: #ffe4e1; /* Light pink for product cards */
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  }
+  
+  .product-item h3 {
+    color: #000000; /* Black headings */
+  }
+  
+  #contact {
+    background-color: #ffffff; /* White for simplicity */
+    color: #333333;
+  }
+  
+  #footer {
+    text-align: center;
+    background-color: #000000; /* Black footer */
+    color: #ffffff; /* White text for contrast */
+    padding: 10px 20px;
+    font-size: 0.9em;
+    border-top: 2px solid #ff69b4; /* Pink border for style */
+  }
+  h2 {
+    color: #f792a3;
+  }
+
+  p {
+    color: #f792a3;
+  }

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Radiation Simulation</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #0B3D91, #2f2e2e);
+            color: #F5F5F5;
+        }
+        header {
+            background: linear-gradient(90deg, #5D3FD3, #0B3D91);
+            color: #F5F5F5;
+            padding: 1.5rem;
+            text-align: center;
+            font-size: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0B3D91;
+            padding: 0.8rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            color: #F5F5F5;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color:rgb(233, 139, 233);
+        }
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+            background-color: #1E1E2F;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(48, 47, 47, 0.3);
+        }
+        h1, h2 {
+            color: #ffffff;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        select, button {
+            margin: 0.5rem 0;
+            padding: 0.8rem;
+            font-size: 1rem;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+        select {
+            background-color: #2E2E3F;
+            color: #F5F5F5;
+        }
+        button {
+            background-color: #5D3FD3;
+            color: #F5F5F5;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            border: none;
+        }
+        button:hover {
+            background-color:rgb(156, 156, 249);
+        }
+        footer {
+            background: linear-gradient(90deg, #5D3FD3, #0B3D91);
+            color: #F5F5F5;
+            text-align: center;
+            padding: 1.2rem;
+            margin-top: 2rem;
+            font-size: 1.1rem;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const resetButton = document.getElementById('reset');
+            const startButton = document.getElementById('start-simulation');
+
+            resetButton.addEventListener('click', () => {
+                document.getElementById('metal-type').value = "";
+                document.getElementById('temperature').value = "";
+                document.getElementById('radiation-type').value = "";
+            });
+
+            startButton.addEventListener('click', () => {
+                const metal = document.getElementById('metal-type').value;
+                const temperature = document.getElementById('temperature').value;
+                const radiation = document.getElementById('radiation-type').value;
+
+                alert(`Simulation started with:\nMetal: ${metal}\nTemperature: ${temperature}°C\nRadiation: ${radiation}`);
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Simulation of Space Radiation Interaction</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#help">Help</a>
+    </nav>
+    <main>
+        <section id="instructions">
+            <p>
+                This website helps you simulate the interaction of space radiation with various metals. 
+                To use this tool, select the desired parameters below and click "Start Simulation" to view results. 
+                You can reset your inputs at any time by clicking the "Reset" button.
+            </p>
+        </section>
+
+        <section id="simulation">
+            <h2>Simulation Parameters</h2>
+            <div class="form-group">
+                <label for="metal-type">Metal Type:</label>
+                <select id="metal-type">
+                    <option value="">--Select Metal--</option>
+                    <option value="aluminum">Aluminum</option>
+                    <option value="titanium">Titanium</option>
+                    <option value="steel">Steel</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="temperature">Temperature (°C):</label>
+                <select id="temperature">
+                    <option value="">--Select Temperature--</option>
+                    <option value="-50">-50°C</option>
+                    <option value="0">0°C</option>
+                    <option value="50">50°C</option>
+                    <option value="100">100°C</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="radiation-type">Space Radiation:</label>
+                <select id="radiation-type">
+                    <option value="">--Select Radiation--</option>
+                    <option value="gamma">Gamma Rays</option>
+                    <option value="proton">Protons</option>
+                    <option value="neutron">Neutrons</option>
+                </select>
+            </div>
+
+            <button id="start-simulation">Start Simulation</button>
+            <button id="reset">Reset</button>
+        </section>
+    </main>
+    <footer>
+        <p>Thank you for visiting! We hope you visit again.</p>
+    </footer>
+</body>
+</html>
